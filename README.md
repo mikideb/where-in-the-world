@@ -7,6 +7,8 @@ The website gets and presents data about countries all over the world, with the 
 
 The technologies I implemented in this project: React, JSX, CSS Grid/Flexbox, Redux and Redux Thunk (state management and fetching data from API) and axios.
 
+Website demo - https://hungry-montalcini-1f475b.netlify.app/
+
 ## Getting Started
 
 Download the project files and install the project dependencies:
