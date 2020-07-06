@@ -1,0 +1,65 @@
+.regionDropdown {
+  min-width: 200px;
+  height: 56px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: inherit;
+  cursor: pointer;
+  color: rgb(17, 21, 23);
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  min-width: 158px;
+}
+
+.regionList {
+  list-style: none;
+  background-color: inherit;
+  border-radius: inherit;
+  padding: 16px 0;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  text-indent: 20px;
+
+  position: absolute;
+  top: 50px;
+}
+
+.region {
+  border: none;
+  text-align: start;
+  font: inherit;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+
+.darkMode {
+  background-color: rgb(43, 56, 68);
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 1440px) {
+  .regionDropdown {
+    max-width: 200px;
+    margin-top: 40px;
+    font-size: 12px;
+  }
+}

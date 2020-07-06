@@ -1,0 +1,28 @@
+.countries {
+  background-color: rgb(250, 250, 250);
+
+  max-width: 1284px;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 74px;
+  grid-row-gap: 72px;
+}
+
+.darkMode {
+  background-color: rgb(32, 44, 54);
+}
+
+@media screen and (max-width: 1440px) {
+  .countries {
+    max-width: 265px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,2 @@
+export const FETCH_COUNTRIES = 'FETCH_COUNTRIES';
+export const TOGGLE_THEME = 'TOGGLE_THEME';

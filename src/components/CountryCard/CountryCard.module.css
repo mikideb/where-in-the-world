@@ -1,0 +1,50 @@
+.countryCard {
+  height: 336px;
+  max-width: 264px;
+  background-color: hsl(0, 0%, 100%);
+  color: rgb(17, 21, 23);
+  box-shadow: 0 0 7px 2px rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flag {
+  width: 100%;
+  height: 160px;
+}
+
+.details {
+  padding: 24px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: inherit;
+}
+
+li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+li > span {
+  font-weight: 600;
+}
+
+.darkMode {
+  background-color: rgb(43, 56, 68);
+  color: rgb(255, 255, 255);
+}
